@@ -14,20 +14,18 @@ correctly keeps playing correctly.
 
 - **Remove shots** while keeping the lighting and streaming cues later shots
   depend on. Dropping a shot naively breaks the ones after it; the editor
-  carries the cues forward. See `docs/FADES_AND_STREAMING.md` and
-  `docs/LIGHTING.md`.
+  carries the cues forward.
 - **Move sound and music cues** by dragging, clamped to where the format allows
-  them to go (`docs/CUE_DRAGGING.md`, `docs/CUE_RELOCATION.md`).
-- **Repoint music** at a different track (`docs/MUSIC_REPOINTING.md`).
+  them to go
+- **Repoint music** at a different track.
 - **Switch subtitles off** using the game's own `Enable` flag, rather than
-  blanking the text — which would leave a broken label on screen
-  (`docs/SUBTITLES.md`).
-- **Trim dialogue** to the seconds it should keep (`docs/TRIMMING_DIALOGUE.md`).
+  blanking the text — which would leave a broken label on screen.
+- **Trim dialogue** to the seconds it should keep.
 - **Preview the edit**, audio included. The preview mixes the real voice, SE and
   music sources with your edit applied, so what you hear is what the build
-  produces (`docs/AUDIO_FOLLOWS_THE_CUT.md`).
+  produces.
 - **Build and install** a `_P.utoc`/`_P.ucas` pak straight into your Paks
-  folder (`docs/BUILDING_MODS.md`).
+  folder.
 
 ## What it cannot do
 
@@ -278,9 +276,6 @@ again.
 data looks wrong** — your `.usmap` is probably from a different game build;
 re-dump it.
 
-**A scene looks wrong after an edit** — `docs/LESSONS.md` is the accumulated list
-of ways this has gone wrong before, and is the first place to look.
-
 ---
 
 ## How it is put together
@@ -299,10 +294,7 @@ of ways this has gone wrong before, and is the first place to look.
 | `editor_qt/` | the editor — `core/` is the logic, `ui/` is the window |
 | `vendor/UE4Parse` | an unmodified copy of pyUE4Parse; `vendor/UE4Parse-VERSION.txt` names the exact upstream commit |
 | `extras/character-sprites/` | an opt-in sprite atlas, off by default — see below |
-| `docs/` | the design notes, written as the thing was figured out |
 
-Worth reading if you intend to change anything: `docs/LESSONS.md`,
-`docs/EDITING.md`, `docs/CHAIN_FORMAT.md`, and `editor_qt/README.md`.
 
 ### Tests
 
