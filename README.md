@@ -1,4 +1,4 @@
-# FF7 Rebirth Cutscene Editor
+# FF7 Rebirth Cutscene Tool
 
 A desktop editor for Final Fantasy VII Rebirth's cutscenes. It reads the game's
 Sequencer data and lets you cut shots, move and silence sound and music cues,
