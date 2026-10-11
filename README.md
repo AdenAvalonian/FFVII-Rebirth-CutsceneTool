@@ -8,6 +8,9 @@ It does this without an Unreal editor and without re-cooking anything. Edits are
 applied to the shipped assets byte for byte, which is why a scene that plays
 correctly keeps playing correctly.
 
+Posting so that people can make their own tweaks, and hopefully improve my
+rudimentary work.
+
 ---
 
 ## What it can do
@@ -333,10 +336,6 @@ unless you stage some yourself.
 in a mod of your own. The one condition is the usual MIT one: keep the copyright
 line and the licence text with it, so the credit travels.
 
-(In a release zip the MIT text is `LICENSE`. In the development tree it is
-`MIT-LICENSE.txt`, because `LICENSE` there is UnrealReZen's GPL v3, left from
-when its binary sat in that folder. `makerelease.py` swaps them on the way out.)
-
 If you are lifting a piece rather than the whole thing, these are the parts most
 likely to be worth taking on their own, and a line in your readme or mod page is
 all the credit that is asked:
@@ -365,7 +364,7 @@ Square Enix's, and none of it is included here.
 
 ## Credits
 
-Built by Aden.
+Built by Aden Avalon.
 
 pyUE4Parse by MinshuG. UnrealReZen by rm-NoobInCoding. The `EndTextResource` and
 `CutSceneListLevel` formats were worked out here, with FModel's output as the
